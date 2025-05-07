@@ -1,3 +1,4 @@
+import { Code, Folder, Github, Globe } from "lucide-react";
 import BrutalSlide from "../components/BrutalSlide";
 import "../styles/ProjectSlide.css";
 import { Appear, FlexBox, Image } from "spectacle";
@@ -29,7 +30,7 @@ export default function ProjectSlide() {
         justifyContent="center"
         height="100%"
       >
-        <h2>Projects</h2>
+        <h2>Projects <Folder size={35} /></h2>
         <ul className="projects__list">
           {projects.map((project, index) => (
             <Appear>
@@ -44,10 +45,10 @@ export default function ProjectSlide() {
                   </p>
                   <div className="project__links">
                     <a href={project.link} target="_blank" rel="noopener noreferrer">
-                      Live Demo
+                      Live Demo <Globe size={20} />
                     </a>
                     <a href={project.github} target="_blank" rel="noopener noreferrer">
-                      GitHub
+                      GitHub <Github size={20} />
                     </a>
                   </div>
                   <p className="project__description">{project.description}</p>

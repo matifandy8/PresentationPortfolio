@@ -20,3 +20,10 @@
     transform: translate(8px, 8px);
     box-shadow: none;
 }
+
+.contact__link a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
