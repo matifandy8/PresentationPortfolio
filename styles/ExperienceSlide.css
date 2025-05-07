@@ -1,0 +1,27 @@
+.experience {
+    border: 3px solid black;
+    border-color: rgb(0 0 0 / 1);
+    box-shadow: 8px 8px 0 0 #000;
+    padding: 0;
+    display: inline-block;
+    background: #fff;
+    margin-bottom: 1rem;
+    width: 80%;
+    border-radius: 8px;
+}
+
+.description {
+     font-size: 1.5rem;
+     font-weight: 600;
+     color: #000;
+     display: flex;
+     justify-content: space-between;
+     margin: 0rem;
+}
+
+.description span {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+}

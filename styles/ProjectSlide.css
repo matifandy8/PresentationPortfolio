@@ -1,0 +1,27 @@
+.projects__list{
+}
+
+.project__item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 1rem 0
+}
+
+.project__links{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.project__links a{
+    border: 3px solid black;
+    border-color: rgb(0 0 0 / 1);
+    box-shadow: 4px 4px 0 0 #000;
+}
+
+.project__links a:hover{
+  transform: translate(4px, 4px);
+  box-shadow: none;
+}
